@@ -1,2 +1,6 @@
-# professional-js-3rd
-javascript高级程序设计（第三版）笔记
+# 读书笔记
+
+1.JavaScript高级程序设计一部分的源码。
+
+2.对源码自己不懂的注释。
+
