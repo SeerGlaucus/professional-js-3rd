@@ -4,8 +4,8 @@
 *Àí½âÀ¬»øÊÕ¼¯
 
 1.¶¯Ì¬ÊôÐÔ
-Ö»ÄÜ¸øÒýÓÃÀàÐÍÖµÌí¼ÓÊôÐÔ£¬¶ø²»ÄÜ¸ø»ù±¾ÀàÐÍÖµÍ¢¼ÓÊôÐÔ£¨Undifined¡¢Null¡¢Boolean¡¢string¡¢Number£©  
-var a = ¡°str¡±£»  
+Ö»ÄÜ¸øÓÃÀàÐÍÖµÌí¼ÓÊôÐÔ£¬¶ø²»ÄÜ¸ø»ù±¾ÀàÒýÐÍÖµÍ¢¼ÓÊôÐÔ£¨Undifined¡¢Null¡¢Boolean¡¢string¡¢Number£©  
+va a = ¡°strr¡±£»  
 a.name = "sss";  
 alert(a.name);//undifined  
 
@@ -41,7 +41,7 @@ var a = new Object(); a instanceof Object //true, ¼ì²éÊÇ·ñÎªObject ¶¼Îªtrue£¬ÒòÎ
 
 # Ö´ÐÐ»·¾³ºÍ×÷ÓÃÓò
 
-1.Ö´ÐÐ»·¾³¶¨Òå£¬Ö´ÐÐ»·¾³¶¨ÒåÁËº¯Êý»ò±äÁ¿ÓÐÈ¨·ÃÎÊµÄÆäËûÊý¾Ý£¬¾ö¶¨ÁËËûÃÇ¸÷×ÔµÄÐÐÎª£¬Ã¿¸öÖ®ÐÄ»·¾³¶¼ÓÐÒ»¸öÓëÖ®¹ØÁªµÄ±äÁ¿¶ÔÏó£¬»·¾³ÖÐËù±£´æµÄ  
+1.Ö´ÐÐ»·¾³¶¨Òå£¬Ö´ÐÐ»·¾³¶¨ÒåÁËº¯Êý»ò±äÁ¿ÓÐÈ¨·ÃÎÊµÄÆäËûÊý¾Ý£¬¾ö¶¨ÁËËûÃÇ¸÷×ÔµÄÐÐÎª£¬Ã¿¸öÖ´ÐÐ»·¾³¶¼ÓÐÒ»¸öÓëÖ®¹ØÁªµÄ±äÁ¿¶ÔÏó£¬»·¾³ÖÐËù±£´æµÄ  
 ±äÁ¿ºÍº¯Êý¶¼±£´æÔÚÕâ¸ö¶ÔÏóÖÐ¡£È«¾ÖÖ´ÐÐ»·¾³ÊÇ×îÍâÎ§µÄÒ»¸öÖ´ÐÐ»·¾³£¬¸ù¾ÝECMAScriptÊµÏÖËùÔÚµÄËÞÖ÷»·¾³²»Í¬£¬±íÊ¾Ö´ÐÐ»·¾³µÄ¶ÔÏóÒ²²»Ò»Ñù£¬ÔÚ  
 webä¯ÀÀÆ÷ÖÐ£¬È«¾ÖÖ´ÐÐ»·¾³±»ÈÏÎªÊÇwindow¶ÔÏó£¬Òò´ËËùÓÐ±äÁ¿ºÍº¯Êý¶¼ÊÇ×÷Îªwindow¶ÔÏóµÄÊôÐÔºÍ·½·¨´´½¨µÄ£¬Ä³¸öÖ´ÐÐ»·¾³ÖÐµÄËùÓÐ´úÂëÖ´ÐÐÍê±Ï£¬  
 ¸Ã»·¾³±»Ïú»Ù£¬±£´æÔÚÆäÖÐµÄËùÓÐ±äÁ¿ºÍº¯Êý¶¨ÒåÍ¬Ê±±»Ïú»Ù¡£

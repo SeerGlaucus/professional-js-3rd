@@ -17,7 +17,7 @@ var arr = ["red","blue"]//字面量表示法
 length属性不是只读的，通过设置这个属性可以从数组的末尾移除项或向数组中添加新项  
 arr[arr.length] = "123"//扩展一个位置，设置为123  
 设置一个超范围的索引位置的值时，数组自动扩充长度为此索引位置+1，中间的值全部为undefined  
-检测数组：Array.isArray(value);//确定它是不是数组，不管它在哪个全局环境中创建的  
+检测数组：Array.isArray(value);//确定它是不是数组，不管它在哪个全局环境中创建的（instanceof可能有兼容问题）
 数组可以作为栈（LIFO），提供了push（）入栈，和pop（）出栈的操作  
 也可以作为队列（FIFO），提供了shift（）出队方法，结合push（）完成队列操作，利用pop（）和unshift（）可以模拟反向操作的队列  
 数组排序：arr.reverse(),反转，arr.sort(comparefucnton),根据比较函数排序  

@@ -25,7 +25,7 @@
 
 for(property in object) statement   可用来枚举对象的属性  
  
- property 最好写为 var peoperty, 这样可以保证property是局部变量  
+ property 最好写为 var property, 这样可以保证property是局部变量  
  
  label常与break、continue联用，来执行复杂操作，会加大调试难度，谨慎使用。  
  
