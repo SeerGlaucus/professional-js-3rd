@@ -38,7 +38,7 @@ console.log(matches2.index);
 console.log(matches2[0]);
 console.log(matches2.lastIndex);//没有加g的始终返回第一个，加g的接着向后查找
 
-
+alert(sum(1,2));
 
 
 

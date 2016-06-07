@@ -13,7 +13,7 @@ var sum = function(num1, num2){
     return num1+num2;  
 };//function后不必加函数名，因为sum就可以引用函数，函数表达式和定义其他变量一样，括号后加分号。  
 
-还有一种定义函数的方式是使用Function构造函数，Function可以接受任意数量的参数，但最后一个参数是忠都被看做是函数体，而前面的参数则枚举出了新函数的参数  
+还有一种定义函数的方式是使用Function构造函数，Function可以接受任意数量的参数，但最后一个参数始终都被看做是函数体，而前面的参数则枚举出了新函数的参数  
 var sum = new Function("num1","num2","return num1+num2");//不推荐  
 
 111/130/749

@@ -1,36 +1,36 @@
-# DateÀàÐÍ
+# Dateç±»åž‹
 
-Date.parse(±íÊ¾ÈÕÆÚµÄ×Ö·û´®) --- ·µ»Ø×Ö·û´®Ëù±íÊ¾µÄÈÕÆÚµÄ¾à1970.01.01µÄºÁÃëÊý  
+Date.parse(è¡¨ç¤ºæ—¥æœŸçš„å­—ç¬¦ä¸²) --- è¿”å›žå­—ç¬¦ä¸²æ‰€è¡¨ç¤ºçš„æ—¥æœŸçš„è·1970.01.01çš„æ¯«ç§’æ•°  
 
-Date.UTC(Äê£¬ÔÂ£¨0-11£©£¬ÈÕ£¨1-31£©£¬Ð¡Ê±£¨0-23£©£¬·Ö£¬Ãë£¬ºÁÃë) -- ·µ»Ø²ÎÊý±íÊ¾µÄÊ±¼ä¾à1970.01.01µÄºÁÃëÊý  
+Date.UTC(å¹´ï¼Œæœˆï¼ˆ0-11ï¼‰ï¼Œæ—¥ï¼ˆ1-31ï¼‰ï¼Œå°æ—¶ï¼ˆ0-23ï¼‰ï¼Œåˆ†ï¼Œç§’ï¼Œæ¯«ç§’) -- è¿”å›žå‚æ•°è¡¨ç¤ºçš„æ—¶é—´è·1970.01.01çš„æ¯«ç§’æ•°  
 
 new Date(x) == new Date(Date.parse(x)) == new Date(Date.UTC(x))  
 
-# ¼ò»¯Ê¹ÓÃDate¶ÔÏó·ÖÎö´úÂë
+# ç®€åŒ–ä½¿ç”¨Dateå¯¹è±¡åˆ†æžä»£ç 
 
-var start = Date.now();//·µ»ØÏÖÔÚµÄmsÊý  
+var start = Date.now();//è¿”å›žçŽ°åœ¨çš„msæ•°  
 doSomething();  
 var stop = Date.now();  
 console.log(stop-start);  
-ÔÚ²»Ö§³ÖµÄä¯ÀÀÆ÷ÖÐ¿ÉÒÔÓÃ var start = +new Date() À´ÊµÏÖ¡£  
+åœ¨ä¸æ”¯æŒçš„æµè§ˆå™¨ä¸­å¯ä»¥ç”¨ var start = +new Date() æ¥å®žçŽ°ã€‚  
 
-# ¼Ì³ÐµÄ·½·¨  
+# ç»§æ‰¿çš„æ–¹æ³•  
 
-toLocalString¡¢toString¡¢valueOf  
-°´ÕÕÓëä¯ÀÀÆ÷ÉèÖÃµÄµØÇøÏàÊÊÓ¦µÄ¸ñÊ½·µ»ØÈÕÆÚºÍÊ±¼ä  
-·µ»Ø´øÓÐÊ±ÇøÐÅÏ¢µÄÈÕÆÚºÍÊ±¼ä  
-²»·µ»Ø×Ö·û´®£¬·µ»ØºÁÃëÖµ(±È½Ï´óÐ¡ÓÃ)  
+toLocalStringã€toStringã€valueOf  
+æŒ‰ç…§ä¸Žæµè§ˆå™¨è®¾ç½®çš„åœ°åŒºç›¸é€‚åº”çš„æ ¼å¼è¿”å›žæ—¥æœŸå’Œæ—¶é—´  
+è¿”å›žå¸¦æœ‰æ—¶åŒºä¿¡æ¯çš„æ—¥æœŸå’Œæ—¶é—´  
+ä¸è¿”å›žå­—ç¬¦ä¸²ï¼Œè¿”å›žæ¯«ç§’å€¼(æ¯”è¾ƒå¤§å°ç”¨)  
 
-# ¸ñÊ½»¯  
+# æ ¼å¼åŒ–  
 
 new Date().toDateString() -- Sun Jun 05 2016  
 new Date().toTimeString() -- 23:36:20 GMT+0800  
 new Date().toLocaleDateString() -- 2016/6/5  
-new Date().toLocaleTimeString() -- ÏÂÎç11:36:20  
+new Date().toLocaleTimeString() -- ä¸‹åˆ11:36:20  
 
-# ÈÕÆÚ/Ê±¼ä·½·¨
+# æ—¥æœŸ/æ—¶é—´æ–¹æ³•
 
-Ö±½ÓÈ¡µÃºÍÉèÖÃÈÕÆÚÖÐÌØ¶¨²¿·Ö  
+ç›´æŽ¥å–å¾—å’Œè®¾ç½®æ—¥æœŸä¸­ç‰¹å®šéƒ¨åˆ†  
 getTime
 setTime
 ...

@@ -1,56 +1,56 @@
-# ±äÁ¿¡¢×÷ÓÃÓòºÍÄÚ´æÎÊÌâ
-*Àí½â»ù±¾ÀàÐÍºÍÒýÓÃÀàÐÍµÄÖµ
-*Àí½âÖ´ÐÐ»·¾³
-*Àí½âÀ¬»øÊÕ¼¯
+# å˜é‡ã€ä½œç”¨åŸŸå’Œå†…å­˜é—®é¢˜
+*ç†è§£åŸºæœ¬ç±»åž‹å’Œå¼•ç”¨ç±»åž‹çš„å€¼
+*ç†è§£æ‰§è¡ŒçŽ¯å¢ƒ
+*ç†è§£åžƒåœ¾æ”¶é›†
 
-1.¶¯Ì¬ÊôÐÔ
-Ö»ÄÜ¸øÓÃÀàÐÍÖµÌí¼ÓÊôÐÔ£¬¶ø²»ÄÜ¸ø»ù±¾ÀàÒýÐÍÖµÍ¢¼ÓÊôÐÔ£¨Undifined¡¢Null¡¢Boolean¡¢string¡¢Number£©  
-va a = ¡°strr¡±£»  
+1.åŠ¨æ€å±žæ€§
+åªèƒ½ç»™ç”¨ç±»åž‹å€¼æ·»åŠ å±žæ€§ï¼Œè€Œä¸èƒ½ç»™åŸºæœ¬ç±»å¼•åž‹å€¼å»·åŠ å±žæ€§ï¼ˆUndifinedã€Nullã€Booleanã€stringã€Numberï¼‰  
+va a = â€œstrrâ€ï¼›  
 a.name = "sss";  
 alert(a.name);//undifined  
 
-2.¸³Öµ±äÁ¿Öµ  
+2.èµ‹å€¼å˜é‡å€¼  
 var num = 5;
-var num1 = num;//numºÍnum1µÄÖµ¶¼ÊÇ5£¬µ«ËûÃÇµÄÖµÊÇ¶ÀÁ¢µÄ£¬Ïà»¥Ôì×÷Ã»ÓÐÓ°Ïì¡£  
+var num1 = num;//numå’Œnum1çš„å€¼éƒ½æ˜¯5ï¼Œä½†ä»–ä»¬çš„å€¼æ˜¯ç‹¬ç«‹çš„ï¼Œç›¸äº’é€ ä½œæ²¡æœ‰å½±å“ã€‚  
 var obj = new Object();
 var obj1 = obj;
 obj.name = "123";
-alert(obj1.name);//123,obj1±äÁ¿¶ÔÏóÖÐÖµ´æ´¢µÄÊÇobjÖ¸Ïò¶ÔÏóµÄµØÖ·£¬ËùÒÔËûÃÇÖ¸ÏòµÄÊÇÍ¬Ò»¸ö¶ÔÏó¡£  
+alert(obj1.name);//123,obj1å˜é‡å¯¹è±¡ä¸­å€¼å­˜å‚¨çš„æ˜¯objæŒ‡å‘å¯¹è±¡çš„åœ°å€ï¼Œæ‰€ä»¥ä»–ä»¬æŒ‡å‘çš„æ˜¯åŒä¸€ä¸ªå¯¹è±¡ã€‚  
 
-3.²ÎÊý´«µÝ£¬Öµ´«µÝ£¬Êµ¼Ê¾ÍÊÇÐÎ²Î¶ÔÊµ²ÎµÄ¸´ÖÆ£¬²Î¿¼2  
+3.å‚æ•°ä¼ é€’ï¼Œå€¼ä¼ é€’ï¼Œå®žé™…å°±æ˜¯å½¢å‚å¯¹å®žå‚çš„å¤åˆ¶ï¼Œå‚è€ƒ2  
 function add(num){  
 num += 1 ;  
 }  
 var a = 1;  
 add(a);  
-alert(a);//1,numÊÇaµÄÒ»¸ö¸´ÖÆ£¬ËûÃÇÁ½¸öÏà»¥¶ÀÁ¢¡£  
+alert(a);//1,numæ˜¯açš„ä¸€ä¸ªå¤åˆ¶ï¼Œä»–ä»¬ä¸¤ä¸ªç›¸äº’ç‹¬ç«‹ã€‚  
 function setName(psn){  
 psn.name = "asd";  
 }  
 var lily = new Object();  
 setName(lily);    
-alert(lily.name);//psn¸´ÖÆÁËlilyÖÐ´æ´¢µÄ¶ÔÏóµØÖ·£¬¶ÔpsnµÄ²Ù×÷Êµ¼ÊºÍ¶ÔlilyµÄ²Ù×÷ÊÇ²Ù×÷Í¬Ò»¸ö¶ÔÏó¡£  
+alert(lily.name);//psnå¤åˆ¶äº†lilyä¸­å­˜å‚¨çš„å¯¹è±¡åœ°å€ï¼Œå¯¹psnçš„æ“ä½œå®žé™…å’Œå¯¹lilyçš„æ“ä½œæ˜¯æ“ä½œåŒä¸€ä¸ªå¯¹è±¡ã€‚  
 
-4.¼ì²âÀàÐÍ  
-¼ì²â»ù±¾ÀàÐÍ£ºtypeof  
-var a£» typeof a £»//undifined  
-var a = null£» typeof a£» //object  
-¼ì²â¶ÔÏóµÄÀàÐÍ£ºinstanceof  
-123 instanceof Object //false£¬»ù±¾ÀàÐÍ¼ì²éÊÇ·ñÎª¶ÔÏó¶¼Îªfalse  
-var a = new Object(); a instanceof Object //true, ¼ì²éÊÇ·ñÎªObject ¶¼Îªtrue£¬ÒòÎªËùÓÐÒýÓÃÀàÐÍ¶¼ÊÇObjectµÄÊµÀý  
+4.æ£€æµ‹ç±»åž‹  
+æ£€æµ‹åŸºæœ¬ç±»åž‹ï¼štypeof  
+var aï¼› typeof a ï¼›//undifined  
+var a = nullï¼› typeof aï¼› //object  
+æ£€æµ‹å¯¹è±¡çš„ç±»åž‹ï¼šinstanceof  
+123 instanceof Object //falseï¼ŒåŸºæœ¬ç±»åž‹æ£€æŸ¥æ˜¯å¦ä¸ºå¯¹è±¡éƒ½ä¸ºfalse  
+var a = new Object(); a instanceof Object //true, æ£€æŸ¥æ˜¯å¦ä¸ºObject éƒ½ä¸ºtrueï¼Œå› ä¸ºæ‰€æœ‰å¼•ç”¨ç±»åž‹éƒ½æ˜¯Objectçš„å®žä¾‹  
 
-# Ö´ÐÐ»·¾³ºÍ×÷ÓÃÓò
+# æ‰§è¡ŒçŽ¯å¢ƒå’Œä½œç”¨åŸŸ
 
-1.Ö´ÐÐ»·¾³¶¨Òå£¬Ö´ÐÐ»·¾³¶¨ÒåÁËº¯Êý»ò±äÁ¿ÓÐÈ¨·ÃÎÊµÄÆäËûÊý¾Ý£¬¾ö¶¨ÁËËûÃÇ¸÷×ÔµÄÐÐÎª£¬Ã¿¸öÖ´ÐÐ»·¾³¶¼ÓÐÒ»¸öÓëÖ®¹ØÁªµÄ±äÁ¿¶ÔÏó£¬»·¾³ÖÐËù±£´æµÄ  
-±äÁ¿ºÍº¯Êý¶¼±£´æÔÚÕâ¸ö¶ÔÏóÖÐ¡£È«¾ÖÖ´ÐÐ»·¾³ÊÇ×îÍâÎ§µÄÒ»¸öÖ´ÐÐ»·¾³£¬¸ù¾ÝECMAScriptÊµÏÖËùÔÚµÄËÞÖ÷»·¾³²»Í¬£¬±íÊ¾Ö´ÐÐ»·¾³µÄ¶ÔÏóÒ²²»Ò»Ñù£¬ÔÚ  
-webä¯ÀÀÆ÷ÖÐ£¬È«¾ÖÖ´ÐÐ»·¾³±»ÈÏÎªÊÇwindow¶ÔÏó£¬Òò´ËËùÓÐ±äÁ¿ºÍº¯Êý¶¼ÊÇ×÷Îªwindow¶ÔÏóµÄÊôÐÔºÍ·½·¨´´½¨µÄ£¬Ä³¸öÖ´ÐÐ»·¾³ÖÐµÄËùÓÐ´úÂëÖ´ÐÐÍê±Ï£¬  
-¸Ã»·¾³±»Ïú»Ù£¬±£´æÔÚÆäÖÐµÄËùÓÐ±äÁ¿ºÍº¯Êý¶¨ÒåÍ¬Ê±±»Ïú»Ù¡£
+1.æ‰§è¡ŒçŽ¯å¢ƒå®šä¹‰ï¼Œæ‰§è¡ŒçŽ¯å¢ƒå®šä¹‰äº†å‡½æ•°æˆ–å˜é‡æœ‰æƒè®¿é—®çš„å…¶ä»–æ•°æ®ï¼Œå†³å®šäº†ä»–ä»¬å„è‡ªçš„è¡Œä¸ºï¼Œæ¯ä¸ªæ‰§è¡ŒçŽ¯å¢ƒéƒ½æœ‰ä¸€ä¸ªä¸Žä¹‹å…³è”çš„å˜é‡å¯¹è±¡ï¼ŒçŽ¯å¢ƒä¸­æ‰€ä¿å­˜çš„  
+å˜é‡å’Œå‡½æ•°éƒ½ä¿å­˜åœ¨è¿™ä¸ªå¯¹è±¡ä¸­ã€‚å…¨å±€æ‰§è¡ŒçŽ¯å¢ƒæ˜¯æœ€å¤–å›´çš„ä¸€ä¸ªæ‰§è¡ŒçŽ¯å¢ƒï¼Œæ ¹æ®ECMAScriptå®žçŽ°æ‰€åœ¨çš„å®¿ä¸»çŽ¯å¢ƒä¸åŒï¼Œè¡¨ç¤ºæ‰§è¡ŒçŽ¯å¢ƒçš„å¯¹è±¡ä¹Ÿä¸ä¸€æ ·ï¼Œåœ¨  
+webæµè§ˆå™¨ä¸­ï¼Œå…¨å±€æ‰§è¡ŒçŽ¯å¢ƒè¢«è®¤ä¸ºæ˜¯windowå¯¹è±¡ï¼Œå› æ­¤æ‰€æœ‰å˜é‡å’Œå‡½æ•°éƒ½æ˜¯ä½œä¸ºwindowå¯¹è±¡çš„å±žæ€§å’Œæ–¹æ³•åˆ›å»ºçš„ï¼ŒæŸä¸ªæ‰§è¡ŒçŽ¯å¢ƒä¸­çš„æ‰€æœ‰ä»£ç æ‰§è¡Œå®Œæ¯•ï¼Œ  
+è¯¥çŽ¯å¢ƒè¢«é”€æ¯ï¼Œä¿å­˜åœ¨å…¶ä¸­çš„æ‰€æœ‰å˜é‡å’Œå‡½æ•°å®šä¹‰åŒæ—¶è¢«é”€æ¯ã€‚
 
-2.Ã¿¸öº¯Êý¶¼ÓÐ×Ô¼ºµÄÖ´ÐÐ»·¾³£¬µ±Ö´ÐÐÁ÷½øÈëÒ»¸öº¯ÊýÊ±£¬º¯ÊýµÄ»·¾³¾Í»á±»ÍÆÈë»·¾³Õ»ÖÐ£¬¶øÔÚº¯ÊýÖ´ÐÐÖ®ºó£¬Õ»½«Æä»·¾³µ¯³ö£¬°Ñ¿ØÖÆÈ¨·µ»Ø¸øÖ®Ç°  
-µÄÖ´ÐÐ»·¾³¡£  
+2.æ¯ä¸ªå‡½æ•°éƒ½æœ‰è‡ªå·±çš„æ‰§è¡ŒçŽ¯å¢ƒï¼Œå½“æ‰§è¡Œæµè¿›å…¥ä¸€ä¸ªå‡½æ•°æ—¶ï¼Œå‡½æ•°çš„çŽ¯å¢ƒå°±ä¼šè¢«æŽ¨å…¥çŽ¯å¢ƒæ ˆä¸­ï¼Œè€Œåœ¨å‡½æ•°æ‰§è¡Œä¹‹åŽï¼Œæ ˆå°†å…¶çŽ¯å¢ƒå¼¹å‡ºï¼ŒæŠŠæŽ§åˆ¶æƒè¿”å›žç»™ä¹‹å‰  
+çš„æ‰§è¡ŒçŽ¯å¢ƒã€‚  
 
-3.×÷ÓÃÓòÁ´¡£  
-ÑÓ³¤×÷ÓÃÓòÁ´£¿£¿  
+3.ä½œç”¨åŸŸé“¾ã€‚  
+å»¶é•¿ä½œç”¨åŸŸé“¾ï¼Ÿï¼Ÿ  
 
 
 76/95/749
