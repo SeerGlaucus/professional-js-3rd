@@ -1,4 +1,4 @@
-#掌握JavScript的关键
+#掌握JavaScript的关键
 弄清它的本质，历史和局限性。
 
 #简史
