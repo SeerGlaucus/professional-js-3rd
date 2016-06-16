@@ -39,7 +39,10 @@ String基本包装类型的方法
 3.字符串位置方法：indexOf、lastIndexOf  
 4.trim方法，返回去除前后空格的字符串副本  
 5.大小写转换：toLowerCase、toUpperCase  
-6.
+6.模式匹配：str.match(pattern):返回一个数组等价于RegExp.exec(str)。  
+        str.search(pattern):返回第一次匹配的索引，永远返回第一次匹配。  
+        str.replace(str|RegExp, str):替换第一个参数中的字符串，如果第一个参数为regexp并且有g标志，则替换所有匹配。  
+        
 
 126/145/749
 
